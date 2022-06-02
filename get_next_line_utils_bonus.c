@@ -6,11 +6,11 @@
 /*   By: aarribas <aarribas@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/07 08:21:26 by aarribas          #+#    #+#             */
-/*   Updated: 2022/05/12 12:29:18 by aarribas         ###   ########.fr       */
+/*   Updated: 2022/06/02 18:21:13 by aarribas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line_bonus.h"
+#include "get_next_line.h"
 
 size_t	ft_strlen(const char *str)
 {
@@ -22,21 +22,6 @@ size_t	ft_strlen(const char *str)
 		i++;
 	}
 	return (i);
-}
-
-char	*ft_strchr(const char *s, int c)
-{
-	while (*s)
-	{
-		if (*s == c)
-			return ((char *)s);
-		s++;
-	}
-	if (*s == c)
-	{
-		return ((char *)s);
-	}
-	return (NULL);
 }
 
 char	*ft_strfresh(const char *str)
@@ -98,13 +83,13 @@ void	*ft_memset(void *s, int c, size_t n)
 	return (s);
 }
 
-int	ft_newline(char **mybuffer)
+int	ft_newline(char *mybuffer)
 {
 	if (!mybuffer)
 		return (0);
 	while (*mybuffer)
 	{
-		if (*(*mybuffer) == '\n')
+		if (*mybuffer == '\n')
 			return (1);
 		mybuffer++;
 	}

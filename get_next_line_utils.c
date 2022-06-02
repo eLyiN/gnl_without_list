@@ -6,7 +6,7 @@
 /*   By: aarribas <aarribas@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/07 08:21:26 by aarribas          #+#    #+#             */
-/*   Updated: 2022/05/11 16:39:26 by aarribas         ###   ########.fr       */
+/*   Updated: 2022/06/02 18:23:28 by aarribas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,21 +22,6 @@ size_t	ft_strlen(const char *str)
 		i++;
 	}
 	return (i);
-}
-
-char	*ft_strchr(const char *s, int c)
-{
-	while (*s)
-	{
-		if (*s == c)
-			return ((char *)s);
-		s++;
-	}
-	if (*s == c)
-	{
-		return ((char *)s);
-	}
-	return (NULL);
 }
 
 char	*ft_strfresh(const char *str)
