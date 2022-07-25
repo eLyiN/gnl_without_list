@@ -6,11 +6,11 @@
 /*   By: aarribas <aarribas@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/07 08:21:26 by aarribas          #+#    #+#             */
-/*   Updated: 2022/06/02 18:21:13 by aarribas         ###   ########.fr       */
+/*   Updated: 2022/07/25 14:20:22 by aarribas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "get_next_line_bonus.h"
 
 size_t	ft_strlen(const char *str)
 {

@@ -6,11 +6,11 @@
 /*   By: aarribas <aarribas@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/02 18:07:35 by aarribas          #+#    #+#             */
-/*   Updated: 2022/06/02 18:07:38 by aarribas         ###   ########.fr       */
+/*   Updated: 2022/07/25 14:20:26 by aarribas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "get_next_line_bonus.h"
 
 char	*get_next_line(int fd)
 {
